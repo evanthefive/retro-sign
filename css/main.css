@@ -48,11 +48,11 @@ svg {
  fill: #f60;
 }
 
-.linify {
-  animation: linify 1s forwards;
+.lineEngage {
+  animation: lineEngage 1s forwards;
 }
 
-@keyframes linify {
+@keyframes lineEngage {
 
   0% {
 
