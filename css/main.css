@@ -31,10 +31,6 @@ svg {
   cursor: pointer;
 }
 
-.btn:active {
-  transofrm: scale(1,1);
-}
-
 .lines path {
   stroke-dasharray: 0, 480;
 }
