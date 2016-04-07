@@ -31,6 +31,10 @@ svg {
   cursor: pointer;
 }
 
+.btn:active {
+  fill: #f60;
+}
+
 .lines path {
   stroke-dasharray: 0, 480;
 }
