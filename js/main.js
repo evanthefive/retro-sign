@@ -1,10 +1,10 @@
 var $svg = $('svg');
 var $lines = $('.lines');
-var $btn = $('.btn');
 var $engage = $('.engage');
+var $btn = $('.btn');
 
-$btn.on('click', function () {
-  $lines.addClass('lineEngage');
-  $lines.removeClass('lines');
-  $engage.addClass('lineEngaged');
+$('svg').on('click', function (e) {
+  $('.engage').toggleClass('engaged');
+  $btn.toggleClass('button');
+  $('svg').toggleClass('is-pressed');
 });
